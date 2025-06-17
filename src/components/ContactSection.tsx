@@ -21,7 +21,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["melissa@violinstudio.com"]
+      details: ["julia@violinstudio.com"]
     },
     {
       icon: Clock,

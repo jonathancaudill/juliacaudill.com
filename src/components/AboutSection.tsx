@@ -33,23 +33,23 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="animate-slide-in-left">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-8 gradient-text">
-              About Melissa
+              About Julia
             </h2>
             <div className="space-y-6 font-cormorant text-lg text-gray-700 leading-relaxed">
               <p>
                 With over two decades of experience as both a performer and educator, 
-                Melissa White brings exceptional artistry and pedagogical expertise to her violin studio. 
+                Julia Caudill brings exceptional artistry and pedagogical expertise to her violin studio. 
                 Her approach combines traditional classical techniques with modern teaching methods, 
                 ensuring each student develops both technical proficiency and musical expression.
               </p>
               <p>
-                Melissa has performed with renowned orchestras and in prestigious venues worldwide. 
+                Julia has performed with renowned orchestras and in prestigious venues worldwide. 
                 Her teaching philosophy centers on nurturing each student's unique musical voice while 
                 building a solid foundation of technique, theory, and performance skills.
               </p>
               <p>
                 Whether you're a beginner discovering the violin for the first time or an advanced 
-                student preparing for auditions, Melissa's personalized approach ensures meaningful 
+                student preparing for auditions, Julia's personalized approach ensures meaningful 
                 progress and a lifelong love of music.
               </p>
             </div>

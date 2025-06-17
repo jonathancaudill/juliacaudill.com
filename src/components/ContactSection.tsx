@@ -35,7 +35,7 @@ const ContactSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6 gradient-text">
-            Get In Touch
+            Contact
           </h2>
           <p className="font-cormorant text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to begin your musical journey? Contact us to schedule a consultation 
@@ -48,7 +48,7 @@ const ContactSection = () => {
           <Card className="elegant-shadow border-0">
             <CardContent className="p-8">
               <h3 className="font-playfair text-2xl font-semibold mb-6 text-gray-800">
-                Schedule a Consultation
+                Get In Touch
               </h3>
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">

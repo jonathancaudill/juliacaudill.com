@@ -1,16 +1,16 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X, Instagram, Youtube, Twitter } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Contact', href: '/contact' }
   ];
 
   return (
@@ -18,20 +18,20 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="font-playfair text-2xl font-bold gradient-text">
+          <Link to="/" className="font-playfair text-2xl font-bold gradient-text">
             JULIA CAUDILL
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
+                to={item.href}
                 className="font-cormorant text-lg text-gray-700 hover:text-burgundy-700 transition-colors duration-300"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -57,14 +57,14 @@ const Navigation = () => {
           <div className="md:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className="font-cormorant text-lg text-gray-700 hover:text-burgundy-700 transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
               <div className="flex items-center space-x-4 pt-4 border-t border-gray-100">
                 <Instagram className="w-5 h-5 text-gray-600 hover:text-burgundy-700 transition-colors cursor-pointer" />

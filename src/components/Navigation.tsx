@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="font-playfair text-2xl font-bold gradient-text">
-            MELISSA WHITE
+            JULIA CAUDILL
           </div>
 
           {/* Desktop Navigation */}

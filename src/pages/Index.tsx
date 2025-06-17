@@ -20,7 +20,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="font-playfair text-2xl font-bold mb-4 gradient-text">
-              MELISSA WHITE VIOLIN STUDIO
+              JULIA CAUDILL VIOLIN STUDIO
             </h3>
             <p className="font-cormorant text-gray-400 mb-6">
               Inspiring musical excellence through dedicated teaching and artistry
@@ -31,7 +31,7 @@ const Index = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Studio Policies</a>
             </div>
             <p className="font-cormorant text-gray-500">
-              © 2024 Melissa White Violin Studio. All rights reserved.
+              © 2024 Julia Caudill Violin Studio. All rights reserved.
             </p>
           </div>
         </div>
